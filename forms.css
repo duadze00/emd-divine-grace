@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #333;
+}
+header {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+p{
+  margin: 0 0;
+}
+a:link {
+  color: blue; /* default color for unvisited links */
+  text-decoration: none;
+}
+a:visited {
+  color: #2563eb/* color for links already visited */
+}
+a:hover {
+  color: red; /* color when hovering */
+  text-decoration: underline;
+}
+a:active {
+  color: orange; /* color when clicking */
+}
+h2 {
+  color: #2563eb;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.form {
+  display: grid;
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+}
+input, select {
+  border: solid #2563eb 1.5px;
+  border-radius: 5px;
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+input:hover, select:hover {
+  background-color: #f8f6f6;
+  transform: scale(1.005);
+}
+.anchor-tag{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.anchor {
+  background-color: white;
+  color: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2563eb;
+  font-weight: bolder;
+}
+.anchor:hover{
+  background-color: rgb(39, 38, 38);
+  border: solid 1px #facc15;
+}
+.click {
+  width: 15%;
+  background-color: #2563eb;
+  color: white;
+  margin: 0 40%;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  border: solid 5px #2563eb;
+  padding: 0.5rem 0;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+.click:hover {
+  transform: scale(1.05);
+  color: #facc15;
+}
+label {
+  margin: 1rem 0;
+}
+span {
+  color: #facc15;
+}
+footer {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
